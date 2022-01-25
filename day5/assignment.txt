@@ -1,0 +1,5 @@
+104,harshit,sutariya,jdi,250000
+102,virat,kohli,hero,35000
+105,kapil,sharma,comedian,45000
+103,shreya,dhawan,actor,10000
+101,mg,sutariya,idle,55000
