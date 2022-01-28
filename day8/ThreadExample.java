@@ -3,11 +3,18 @@ package com.uks.LENOVO.core.day8;
 public class ThreadExample {
     public static void main(String[] args) throws InterruptedException {
 
-        ThreadDemo1.printNum();
+        ThreadDemo1 threadDemo1=new ThreadDemo1();
 
         Runnable runnable=new ThreadDemo2();
         Thread thread=new Thread(runnable);
 
-        thread.start();
+        synchronized (threadDemo1) {
+            threadDemo1.wait(100);
+            threadDemo1.start();
+        }
+        synchronized (thread) {
+            thread.wait(100);
+            thread.start();
+        }
     }
 }

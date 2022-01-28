@@ -1,12 +1,18 @@
 package com.uks.LENOVO.core.day8;
 
 public class ThreadDemo1 extends Thread{
-    public static void printNum() throws InterruptedException {
+
+    public synchronized void run(){
         for (int i=1;i<=5000;i++){
-            System.out.println("Thread<"+Thread.currentThread().getName()+"> : "+i);
+            System.out.println("Thread<"+Thread.currentThread().getName()+"> : "+i+"\n");
 
             if(i%50 == 0){
-                Thread.sleep(100);
+                try {
+                    Thread.sleep(100);
+                    this.notifyAll();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }
