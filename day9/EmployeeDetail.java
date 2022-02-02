@@ -19,8 +19,6 @@ public class EmployeeDetail {
 
     public EmployeeDetail(String userid,String userrole) {
         this.userid = userid;
-        this.password=password;
-        this.username = username;
         this.userrole = userrole;
     }
 }
