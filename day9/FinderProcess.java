@@ -19,7 +19,7 @@ public class FinderProcess {
         while (i <= 3) {
 
             System.out.print("\nEnter UserName :");
-            String use_Name = sc.nextLine();
+            String username = sc.nextLine();
             System.out.print("Enter PassWord :");
             String passWord = sc.nextLine();
 
@@ -27,7 +27,7 @@ public class FinderProcess {
 
             for (Map.Entry<Integer, EmployeeDetail> entry : newMap.entrySet()) {
 
-                Pattern p = Pattern.compile(use_Name);
+                Pattern p = Pattern.compile(username);
                 Pattern p1 = Pattern.compile(passWord);
 
                 Matcher m = p.matcher(entry.getValue().username);
