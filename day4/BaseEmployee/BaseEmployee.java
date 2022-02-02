@@ -1,4 +1,4 @@
-package BaseEmployee;
+package com.uks.LENOVO.core.day4.BaseEmployee;
 
 import java.util.Scanner;
 

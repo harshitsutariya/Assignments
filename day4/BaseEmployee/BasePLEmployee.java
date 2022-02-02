@@ -1,4 +1,4 @@
-package BaseEmployee;
+package com.uks.LENOVO.core.day4.BaseEmployee;
 
 public class BasePLEmployee {
     public static void main(String args[])

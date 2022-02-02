@@ -1,4 +1,4 @@
-package BaseEmployee;
+package com.uks.LENOVO.core.day4.BaseEmployee;
 
 class PLEmployee extends BaseEmployee implements IReport {
 

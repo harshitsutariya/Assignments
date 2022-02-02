@@ -52,7 +52,6 @@ public class RowPrinter {
 
     public static void tableFormat() throws IOException {
 
-
         Formatter fmt = new Formatter();
         fmt.format("%1s %14s %15s %15s %15s\n", "empcode", "fname", "lname", "emptype", "basicsal");
 
@@ -62,7 +61,6 @@ public class RowPrinter {
             fmt.format("%-15s %-15s %-15s %-15s %-15s\n", e.empCode,
                     e.fName, e.lName, e.empType, e.basicSal);
         System.out.println(fmt);
-
 
     }
 }

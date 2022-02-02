@@ -1,0 +1,4 @@
+1,harshit sutariya, xyz apartment thaltej, ahmedabad, 120000, 6589785623
+2,manav mulani, abc society jakatnaka, surat, 20000, 6987562356
+3,kevin kumar, rst bunglows dmart, vadodara, 15000, 8795625589
+4,sunny chopra, dij jungle hajira, surat, 2000, 8777568999
